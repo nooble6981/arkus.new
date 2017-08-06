@@ -30,9 +30,12 @@ body {
 }
 
 header {
-	background-image: url('../images/header_bg.jpg');
-	min-height: 100%;
-	padding-top: 20px;
+	background-image: url(../images/header_bg.jpg);
+    min-height: 100%;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
 }
 
 .nav li {
@@ -51,13 +54,42 @@ header {
 	border: 1px solid #29ABE2;
 	padding: 10px;
 	font-size: 16px;
+	border-radius: 7px;
 }
+
+.nav li a:hover {
+	background-color: #29ABE2;
+	
+}
+
+
 
 .button_feedback {
 	color: #fff;
-	border: 1px solid #29ABE2;
-	padding: 5px;
+	
+	padding: 10px;
 	font-size: 17px;
+	background: #0071BC;
+	border-radius: 7px;
+}
+
+.button_feedback:hover {
+background-color: #035891;
+
+}
+
+.button_feedback_footer {
+	color: #fff;
+	padding: 5px 65px;
+	font-size: 17px;
+	background: #0071BC;
+	border-radius: 7px;
+
+}
+
+.button_feedback_footer:hover {
+background-color: #035891;
+
 }
 
 .contacts span {
@@ -91,9 +123,11 @@ header {
 
 section.benefits {
 	padding-top: 30px;
-	background-image: url('');
 	background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.78)),url('../images/bg_b.jpg');
 	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+
 }
 
 section.benefits h1 {
@@ -119,16 +153,30 @@ section.benefits h1 {
 }
 
 section.car {
-	background-image: url(../images/prem_bg.png);
 	background-repeat: no-repeat;
 	background-color: #282828;
-	background-position: 250px 8%;
+	background-position: top right;
 	height: 100%;
+
+}
+
+.prem img {
+    width: 130%;
+    position: absolute;
+    right: 40px;
+    top: 100px;
+}
+.bis img {
+      width: 800px;
+    position: absolute;
+    right: -150px;
+    top: -30px;
 }
 
 h1 { 
 color: #fff;
 font-size: 30px;
+margin-left: 60px;
 }
 
 
@@ -148,6 +196,7 @@ section.car span {
     padding: 10px;
     margin-bottom: 15px;
     width: 40%;
+    border-radius: 7px;
 
 }
 
@@ -159,20 +208,27 @@ section.car span {
 	padding: 15px;
 	text-align: center;
 	width: 40%;
+	border-radius: 7px;
 }
 
 .form_button:hover {
 	background-color: #035891;
 }	
 
-.button_photo {
-	margin-top: 300px;
+.button_photo  {
+	margin-top: 100px;
 	border: 2px solid #C1272D;
 	padding: 10px;
 	width: 250px;
 	margin-bottom: 20px;
 	text-align: center;
 	color: #fff;
+	margin-bottom: 30px;
+	border-radius: 7px;
+}
+
+.button_photo a {
+color: #fff;
 }
 
 .button_photo:hover {
@@ -180,11 +236,17 @@ section.car span {
 	
 }
 
+.button_photo2:hover {
+	background: #C1272D;
+	
+}
+
+.button_photo1:hover {
+	background: #C1272D;
+	
+}
+
 section.bissnes {
-	background: 
-	url(../images/bissnes_car_bg.png) 70% 0 no-repeat, 
-	url(../images/blue_line.png) 434px 72% no-repeat;
-	background-repeat: no-repeat;
 	background-color: #282828;
 	height: 100%;
 	
@@ -192,10 +254,25 @@ section.bissnes {
 }
 
 .bis {
-		margin-top: 10px;
+	margin-top: 10px;
 	font-size: 44px;
 	color: #fff;
 }
+
+.vned1 {
+	margin-top: 10px;
+	font-size: 44px;
+	color: #fff;
+}
+
+.vclasse1 {
+
+	margin-top: 10px;
+	font-size: 44px;
+	color: #fff;
+}
+
+
 
 .button_photo1 {
 	margin-top: 150px;
@@ -205,19 +282,32 @@ section.bissnes {
 	margin-bottom: 20px;
 	text-align: center;
 	color: #fff;
+	border-radius: 7px;
 }
 
 
-section.vned {
-	background: 
-	url(../images/vned_bg.png) 120% 40px no-repeat,    
-	url(../images/blue_line.png) 86% 100% no-repeat;
-	background-repeat: no-repeat;
+section.vned {  
 	background-color: #282828;
 	height: 100%;
 	
 
 }
+
+.vned1 img {
+     width: 800px;
+    position: absolute;
+    right: -100px;
+    top: 55px;
+}
+
+.vclasse img {
+         position: absolute;
+    right: 15px;
+    top: 100px;
+
+}
+
+
 
 
 .button_photo2 {
@@ -228,6 +318,7 @@ section.vned {
 	margin-bottom: 20px;
 	text-align: center;
 	color: #fff;
+	border-radius: 7px;
 }
 
 section.more {
@@ -235,17 +326,19 @@ section.more {
 	background-repeat: no-repeat;
 	background-color: #282828;
 	height: 100%;
+	background-size: cover;
 
 }
 
 .item_more {
 	    color: #fff;
-    padding: 60px;
+        padding: 60px 10px;
     border: 1px solid #fff;
     background-color: rgba(0, 0, 0, 0.3);
     margin-bottom: 50px;
     text-align: center;
     height: 150px;
+    border-radius: 7px;
 }
 
 section.more i {
@@ -261,19 +354,14 @@ form {
 
 
 section.vclasse {
-	background: 
-	url(../images/vned_bg.png) 120% 40px no-repeat;
-	background-repeat: no-repeat;
 	background-color: #282828;
 	height: 100%;
-	
-
 }
 
 section.otz {
 	background-color: #282828;
 	color: #fff;
-height: 500px;
+
 }
 
 .item_otz {
@@ -302,7 +390,12 @@ height: 500px;
 	font-size: 13px;
 	padding: 15px;
 	text-align: center;
+	border-radius: 7px;
 	
+}
+
+.form_button1:hover {
+	background-color: #035891;
 }
 
 .line_footer {
@@ -312,8 +405,27 @@ height: 500px;
 	margin-bottom: 30px;
 }
 
+.line {
+	background-color: #eee;
+	width: 100%;
+	height: 2px;
+}
+
 footer {
 	color: #fff;
 	background-color: #282828;
 	padding-bottom: 20px;
+	    padding-top: 40px;
+}
+
+.line_header {
+background-color: #fff;
+    width: 45px;
+    height: 3px;
+    position: absolute;
+    top: 40px;
+}
+
+.hidden {
+	display: none;
 }
