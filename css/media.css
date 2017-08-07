@@ -7,12 +7,51 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+.fixed {
+	
+	position: relative;
+}
+
+.header_bg {
+	position: relative;
+	display: none;
+}
+.nav li a {
+	font-size: 9px;
+}
+
+.header_text h1 {
+	font-size: 20px;
+}
+
+.contacts {
+	margin-top: 40px;
+	margin-right: 75px;
+}
+
+.header_text2 h2 {
+	font-size: 15px;
+}
+
+section.bissnes img {
+width: 600px;
+ right: 10px;
+
+}
+
+.vned img {
+	width: 600px;
+    position: absolute;
+    right: 0px;
+    top: 55px;
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+.fixed {
 
+}
 }
 
 /* Extra Small Devices, Phones */
