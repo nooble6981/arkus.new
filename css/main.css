@@ -1,5 +1,7 @@
+
+
 *::-webkit-input-placeholder {
-	color: #fff;
+	color: #a7a7a7;
 	opacity: 1;
 	font-size: 14px;
 }
@@ -138,17 +140,18 @@ section.benefits h1 {
 }
 
 .item_b {
-	background-color: rgba(0, 0, 0, 0.7);
-	padding: 15px;
-	border: 1px solid #eee;
-	color: #fff;
-	font-size: 17px;
-	text-align: center;
-	margin-bottom: 10px;
+	
+    padding: 15px;
+    border: 1px solid #eee;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 7px;
 }
 
 .item_b span {
-	font-size: 20px;
+	font-size: 19px;
 	font-family: 'RobotoBold', sanf-serif;
 }
 
@@ -167,9 +170,9 @@ section.car {
     top: 100px;
 }
 .bis img {
-      width: 800px;
+    width: 700px;
     position: absolute;
-    right: -150px;
+    right: -130px;
     top: -30px;
 }
 
@@ -179,6 +182,21 @@ font-size: 30px;
 margin-left: 60px;
 }
 
+
+section.bissnes span {
+	font-size: 70px;
+	color: #fff;
+}
+
+section.vned span {
+	font-size: 70px;
+	color: #fff;
+}
+
+section.vclasse span {
+	font-size: 70px;
+	color: #fff;
+}
 
 section.car span {
 	font-size: 70px;
@@ -195,7 +213,7 @@ section.car span {
     border: 1px solid #fff;
     padding: 10px;
     margin-bottom: 15px;
-    width: 40%;
+    width: 350px;
     border-radius: 7px;
 
 }
@@ -207,7 +225,7 @@ section.car span {
 	font-size: 13px;
 	padding: 15px;
 	text-align: center;
-	width: 40%;
+	width: 350px;
 	border-radius: 7px;
 }
 
@@ -228,6 +246,14 @@ section.car span {
 }
 
 .button_photo a {
+color: #fff;
+}
+
+.button_photo1 a {
+color: #fff;
+}
+
+.button_photo2 a {
 color: #fff;
 }
 
@@ -394,6 +420,9 @@ section.otz {
 	
 }
 
+.form_button1 a {
+color: #fff; }
+
 .form_button1:hover {
 	background-color: #035891;
 }
@@ -428,4 +457,48 @@ background-color: #fff;
 
 .hidden {
 	display: none;
+}
+
+
+.pop_form input {
+	background-color: #fff;
+	border: 1px solid #eee;
+	margin-bottom: 10px;
+	width: 90%;
+
+}
+
+.pop_form {
+	padding: 10px;
+	margin: 0;
+}
+
+.pop_form p {
+	font-size: 13px;
+    text-align: center;
+}
+
+.pop_form h3 {
+	    font-size: 20px;
+    text-align: center;
+}
+
+.form_pop {
+	text-align: center;
+}
+.button_form {
+
+    color: #fff;
+    padding: 10px 155px;
+    font-size: 17px;
+    background: #0071BC;
+    border-radius: 7px;}
+
+.text_pop {
+	text-align: center;
+	max-width: 300px;
+}
+
+.text_pop img {
+	    margin-left: 10%;
 }
