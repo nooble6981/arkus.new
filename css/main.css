@@ -34,21 +34,44 @@ body {
 header {
 	background-image: url(../images/header_bg.jpg);
     min-height: 100%;
-    padding-top: 20px;
+ 
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
+ 
+}
+.fixed {
+	position: fixed; /*фиксированное положение*/
+z-index: 100; /*ориентация выше всех*/ 
+margin-top: 10px;
+
+
+
+}
+
+
+.header_bg {
+	position: fixed;
+	z-index: 90;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	height: 70px;
+
+
 }
 
 .nav li {
 	float: left;
 	list-style-type: none;
 	margin-right: 10px;
+
 }
+
 
 .contacts {
 	float: right;
 	margin-top: 15px;
+
 }
 
 .nav li a {
@@ -103,7 +126,7 @@ background-color: #035891;
 }
 
 .header_text h1 {
-	margin-top: 60px;
+	margin-top: 90px;
 	color: #fff;
 	font-size: 40px;
 	background-color: rgba(0, 0, 0, 0.2);
