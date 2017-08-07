@@ -125,13 +125,13 @@
 
 			<div class="line_header"></div><h1>Выберите марку машины</h1>
 
-			<form action="">
-				<input type="text" placeholder="Ваше имя"><br>
-				<input type="text" placeholder="Ваше телефон" ><br>
-				<input type="text" placeholder="Марка машины"><br>
+	<form id="callback" class="pop_form" method="post" action="mail.php">
+				<input type="text" name="name" placeholder="Ваше имя"><br>
+				<input type="text" name="phone" placeholder="Ваш телефон" ><br>
+				<input type="text" name="mark" placeholder="Марка машины"><br>
 				<button class=form_button>Обратиться</button>
 			</form>
-		</div>
+</div>
 		<div class="col-md-5"><div class="prem"><span>П</span>ремиум Класс
 
 		<img src="images/prem_bg.png" alt=""></div></div>
@@ -156,10 +156,10 @@
 		<div class="col-md-7">
 			<h1></h1>
 
-			<form action="">
-				<input type="text" placeholder="Ваше имя"><br>
-				<input type="text" placeholder="Ваше телефон" ><br>
-				<input type="text" placeholder="Марка машины"><br>
+			<form id="callback" class="pop_form" method="post" action="mail.php">
+				<input type="text" name="name" placeholder="Ваше имя"><br>
+				<input type="text" name="phone" placeholder="Ваш телефон" ><br>
+				<input type="text" name="mark" placeholder="Марка машины"><br>
 				<button class=form_button>Обратиться</button>
 			</form>
 		</div>
@@ -182,10 +182,10 @@
 		<div class="col-md-7">
 			<h1></h1>
 
-			<form action="">
-				<input type="text" placeholder="Ваше имя"><br>
-				<input type="text" placeholder="Ваше телефон" ><br>
-				<input type="text" placeholder="Марка машины"><br>
+			<form id="callback" class="pop_form" method="post" action="mail.php">
+				<input type="text" name="name" placeholder="Ваше имя"><br>
+				<input type="text" name="phone" placeholder="Ваш телефон" ><br>
+				<input type="text" name="mark" placeholder="Марка машины"><br>
 				<button class=form_button>Обратиться</button>
 			</form>
 		</div>
@@ -232,10 +232,10 @@
 		<div class="col-md-7">
 			
 
-			<form action="">
-				<input type="text" placeholder="Ваше имя"><br>
-				<input type="text" placeholder="Ваше телефон" ><br>
-				<input type="text" placeholder="Марка машины"><br>
+			<form id="callback" class="pop_form" method="post" action="mail.php">
+				<input type="text" name="name" placeholder="Ваше имя"><br>
+				<input type="text" name="phone" placeholder="Ваш телефон" ><br>
+				<input type="text" name="mark" placeholder="Марка машины"><br>
 				<button class=form_button>Обратиться</button>
 			</form>
 		</div>
@@ -366,21 +366,24 @@ Director@arkrus.info <br><br>
 	<img src="images/b2.jpg" alt="" />
 </a></div>
 
-<div class="hidden">
-	<form id="callback" class="pop_form" method="post" action="mail.php">
+
+	
+<div id="callback" class="form_pop">
+	<form class="pop_form" method="post" action="mail.php">
+
+
+
 	<h3>ЗАКАЖИ НУЖНУЮ МАШИНУ С ВОДИТЕЛЕМ</h3>
 <p>ОТВЕТИМ В ТЕЧЕНИЕ 15 МИНУТ</p>
-<div class="form_pop">
 <input type="text" name="name" placeholder="Имя"><br>
 <input type="text" name="phone" placeholder="Телефон"> <br>
 <input type="text" name="mark" placeholder="Марка машины"> <br>
 <br>
-<input type="submit" value="Отправить" class="button_form"/>
 <button class="button_form">Заказать</button>
-<a href="" class="button_form">Заказать</a>
-</div>
-</form>
-</div>
+
+
+</form></div>
+
 
 <div class="hidden">
 	<div id="otz1" class="pop_form">
